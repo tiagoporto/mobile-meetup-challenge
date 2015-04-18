@@ -10,10 +10,10 @@ angular.module('devmeetup.github')
 
 	return {getUser: getUser};
 
- }])
+}])
 
 .factory('foto.service', ['$http', function($http) {
-	var sendFeedback = function(email, imageURI) {
+	var enviarEmail = function(email, imageURI) {
         if(window.plugins && window.plugins.emailComposer) {
             window.plugins.emailComposer.showEmailComposerWithCallback(function(result) {
                 console.log("Response -> " + result);
@@ -29,14 +29,16 @@ angular.module('devmeetup.github')
         }
     }
 
-	var tirarFoto = function(email) {
-	  		navigator.camera.getPicture(function(imageURI) {
-	  		console.log(imageURI);
-	  		sendFeedback(email, imageURI);
-	  	}, function(err) {
+    var tirarFoto = function(email) {
+     navigator.camera.getPicture(function(imageURI) {
+         console.log(imageURI);
+         enviarEmail(email, imageURI);
+     }, function(err) {
 
-		}, {});
-  	}
+     }, {});
+ }
 
-  	return {tirarFoto: tirarFoto};
+ return {
+    tirarFoto: tirarFoto
+};
 }]);

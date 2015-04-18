@@ -1,15 +1,14 @@
 <ion-view view-title="Github">
   <ion-content>
-    <h1>Github</h1>
 
     <div class="list">
 
-      <form ng-submit="validar()">
+      <form name="gitForm" ng-submit="validar()" novalidate>
       	<label class="item item-input">
-      	  <input type="text" placeholder="Nome de Usuário" ng-model="model.username">
+      	  <input type="text" placeholder="Nome de Usuário" ng-model="model.username" required>
       	</label>
 
-      	<button class="button button-balanced button-full">Enviar</button>
+      	<button class="button button-balanced button-full" ng-disabled="gitForm.$invalid">Enviar</button>
       </form>
     </div>
 

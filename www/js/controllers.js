@@ -17,18 +17,14 @@ angular.module('devmeetup.github', [])
 		$scope.modal.hide();
 	};
 
-  $scope.validar = function(){
-	githubService.getUser($scope.model.username).then(function (data) {
-		$scope.userData = data;
-		console.log(data);
-		$scope.openModal();
-	})}
+	$scope.validar = function(){
+		githubService.getUser($scope.model.username).then(function (data) {
+			$scope.userData = data;
+			console.log(data);
+			$scope.openModal();
+		})}
 
-	$scope.tirarFoto = function() {
-		fotoService.tirarFoto($scope.userData.email);
-	}
-}])
-
-.controller('FotoCtrl', function($scope) {
-
-});
+		$scope.tirarFoto = function() {
+			fotoService.tirarFoto($scope.userData.email);
+		}
+	}]);
