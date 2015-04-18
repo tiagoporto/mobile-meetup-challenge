@@ -1,6 +1,6 @@
 angular.module('devmeetup.github', [])
 
-.controller('GithubCtrl', ['$scope','$http','github.service', 'github.foto','$ionicModal', function($scope, $http, githubService, githubFoto, $ionicModal) {
+.controller('GithubCtrl', ['$scope','$http','github.service', 'foto.service','$ionicModal', function($scope, $http, githubService, fotoService, $ionicModal) {
 
 	$scope.model = {username: 'romulobr'}
 	$ionicModal.fromTemplateUrl('templates/picture-modal.html', {
@@ -25,7 +25,7 @@ angular.module('devmeetup.github', [])
 	})}
 
 	$scope.tirarFoto = function() {
-		githubFoto.
+		fotoService.tirarFoto($scope.userData.email);
 	}
 }])
 
