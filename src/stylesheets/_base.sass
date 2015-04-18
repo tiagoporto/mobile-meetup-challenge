@@ -1,0 +1,136 @@
+.home
+	background: url($image-path + 'bg.jpg') 0 0 no-repeat !important
+	background-size: cover !important
+
+	h1
+		text-align: center
+		margin-top: 20%
+
+		img
+			width: 70%
+.tabs
+	height: $tab-top
+	line-height: $tab-top
+
+.bar, .bar .title
+	height: $top-header
+
+.tabs-top > .tabs
+	top: $top-header
+
+.has-header
+	top: $top-header
+
+ion-content.has-tabs-top
+	top: ($top-header + $tab-top)
+
+.bar-header
+	background: url($image-path + 'bg.jpg') 0 0 no-repeat !important
+	background-size: cover !important
+	border-bottom: em(5px) solid lighten(#000, 80%) !important
+
+.title-image
+	display: block
+	top: 4px
+	height: 25px
+	position: relative
+	margin: auto
+
+.menu-principal
+	background: rgba(0,0,0, .5)
+	height: auto !important
+
+	ul
+		padding-bottom: em(10px)
+
+	li
+		width: (100% / 3)
+		height: (100% / 3)
+		float: left
+		text-align: center
+		margin-top: em(5px)
+
+	a
+		display: block
+		line-height: 0
+
+		&:active
+			background-color: rgba(0,0,0,.5)
+
+	img
+		height: 100%
+
+.flag
+	display: inline
+	float: left
+
+//Bordas Hora Início
+
+.inicio-evento
+	position: absolute
+	top: 0
+	left: 0
+	min-width: 65px
+	height: 100%
+	background: grey
+	color: white
+	padding: 10px
+	text-align: center
+	line-height: 3.4em
+	border-right: em(5px) solid transparent
+
+.debates
+	border-right-color: #11582D
+
+.temas-livres
+	border-right-color: #FFCA05
+
+.mesa-redonda
+	border-right-color: #A91C20
+
+.curso-aospine
+	border-right-color: #EB008B
+
+.curso-srs
+	border-right-color: #F48120
+
+.simposio-satelite
+	border-right-color: #47A4AD
+
+.intervalos
+	border-right-color: #FFCA05
+
+.outros
+	border-right-color: #58595B
+
+table
+	width: 100%
+
+
+.color
+	th
+		background: #7f8183
+		color: #FFF
+	td, th
+		border: 1px solid #ddd
+		padding: em(5px)
+
+.item-divider
+	text-align: center
+	background: transparent
+
+.item-icon-right
+	img
+		max-width: 45%
+		height: 30px
+
+.item-note
+	i
+		display: block
+		transition: all .4s
+
+	.open
+		transform: rotate(90deg)
+
+input
+	text-align: center

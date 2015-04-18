@@ -1,0 +1,257 @@
+%svg-common {
+	background: url(../img/svg-sprite.svg) no-repeat;
+}
+
+.svg-acesso-restrito {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-acesso-restrito-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-achados-perdidos {
+	@extend %svg-common;
+	background-position: 0 4.566744730679157%;
+}
+
+.svg-achados-perdidos-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-almoco {
+	@extend %svg-common;
+	background-position: 0 9.133489461358314%;
+}
+
+.svg-almoco-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-ambulatorio {
+	@extend %svg-common;
+	background-position: 0 13.70023419203747%;
+}
+
+.svg-ambulatorio-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-back,
+.svg-back\:regular {
+	@extend %svg-common;
+	background-position: 0 17.94134560092007%;
+}
+
+.svg-back-dims {
+	width: 29px;
+	height: 23.5px;
+}
+
+.svg-back:active,
+.svg-back\:active {
+	@extend %svg-common;
+	background-position: 0 20.701552616446232%;
+}
+
+.svg-back-dims:active,
+.svg-back\:active-dims {
+	width: 29px;
+	height: 23.5px;
+}
+
+.svg-caex {
+	@extend %svg-common;
+	background-position: 0 23.88758782201405%;
+}
+
+.svg-caex-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-celular {
+	@extend %svg-common;
+	background-position: 0 28.45433255269321%;
+}
+
+.svg-celular-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-certificados {
+	@extend %svg-common;
+	background-position: 0 33.021077283372364%;
+}
+
+.svg-certificados-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-credenciamento {
+	@extend %svg-common;
+	background-position: 0 37.587822014051525%;
+}
+
+.svg-credenciamento-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-eletricidade {
+	@extend %svg-common;
+	background-position: 0 42.15456674473068%;
+}
+
+.svg-eletricidade-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-favorito {
+	@extend %svg-common;
+	background-position: 0 45.914844649021866%;
+}
+
+.svg-favorito-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-guarda-volumes {
+	@extend %svg-common;
+	background-position: 0 49.531615925058546%;
+}
+
+.svg-guarda-volumes-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-horarios {
+	@extend %svg-common;
+	background-position: 0 54.09836065573771%;
+}
+
+.svg-horarios-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-map-pin {
+	@extend %svg-common;
+	background-position: 0 58.73388042203986%;
+}
+
+.svg-map-pin-dims {
+	width: 24px;
+	height: 40px;
+}
+
+.svg-midia {
+	@extend %svg-common;
+	background-position: 0 63.34894613583138%;
+}
+
+.svg-midia-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-participar {
+	@extend %svg-common;
+	background-position: 0 67.78710175077721%;
+}
+
+.svg-participar-dims {
+	width: 33.64px;
+	height: 37.38px;
+}
+
+.svg-passaporte-visto {
+	@extend %svg-common;
+	background-position: 0 72.36533957845434%;
+}
+
+.svg-passaporte-visto-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-recomendacoes {
+	@extend %svg-common;
+	background-position: 0 76.93208430913349%;
+}
+
+.svg-recomendacoes-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-restricoes {
+	@extend %svg-common;
+	background-position: 0 81.49882903981265%;
+}
+
+.svg-restricoes-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-secretaria {
+	@extend %svg-common;
+	background-position: 0 86.06557377049181%;
+}
+
+.svg-secretaria-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-seta {
+	@extend %svg-common;
+	background-position: 0 89.06789413118527%;
+}
+
+.svg-seta-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-telefones-uteis {
+	@extend %svg-common;
+	background-position: 0 93.44262295081967%;
+}
+
+.svg-telefones-uteis-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-traducao {
+	@extend %svg-common;
+	background-position: 0 98.00936768149883%;
+}
+
+.svg-traducao-dims {
+	width: 39px;
+	height: 39px;
+}
+
+.svg-votacao {
+	@extend %svg-common;
+	background-position: 0 99.9657651489216%;
+}
+
+.svg-votacao-dims {
+	width: 13.82px;
+	height: 16.7px;
+}
+
