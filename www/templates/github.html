@@ -1,5 +1,17 @@
-<ion-view view-title="Browse">
+<ion-view view-title="Github">
   <ion-content>
     <h1>Github</h1>
+
+    <div class="list">
+
+      <form ng-submit="validar()">
+      	<label class="item item-input">
+      	  <input type="text" placeholder="Nome de Usuário" ng-model="username">
+      	</label>
+
+      	<button class="button button-balanced button-full">Enviar</button>
+      </form>
+    </div>
+
   </ion-content>
 </ion-view>
