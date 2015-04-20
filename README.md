@@ -1,8 +1,8 @@
 # Desafio [Meetup Mobile Dev BH](http://www.meetup.com/Mobile-Dev-BH/) - 18/04/15
 
-Para quem quiser testar segue o [Download do APK](desafio-meetup-mobile.apk).
-
 Aplicativo híbrido utilizando [Ionic](http://ionicframework.com/) (The beautiful, open source front-end SDK for developing hybrid mobile apps with HTML5), para o desafio do encontro [Native x Cross Platform x Hybrid - Qual o melhor caminho?](http://www.meetup.com/Mobile-Dev-BH/events/221401419/).
+
+Para quem quiser testar segue o [Download do APK](https://github.com/tiagoporto/desafio-mobile/raw/master/desafio-meetup-mobile.apk).
 
 ![Foto dos participantes](fotos/highres_436429094.jpeg)
 
