@@ -17,7 +17,9 @@
   "cordovaPlugins": [
     "org.apache.cordova.device",
     "org.apache.cordova.console",
-    "com.ionic.keyboard"
+    "com.ionic.keyboard",
+    "com.jcjee.plugins.emailcomposer",
+    "org.apache.cordova.camera"
   ],
   "cordovaPlatforms": [
     "ios",
