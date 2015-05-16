@@ -21,6 +21,6 @@ Os participantes foram separados em 3 grupos para criarem o mesmo aplicativo, ca
 ### Requisitos do aplicativo
 
 * SplashScreen.
-* Integrar com API do GitHub para busca os dados de um usuário informado no app
-* Integrar com a Camera do dispositivo para bater uma foto e enviar para o e-mail do usuario retornado pela API do GitHub.
+* Integrar com API do GitHub para buscar os dados de um usuário informado no app.
+* Integrar com a Cãmera do dispositivo para tirar uma foto e enviar para o e-mail do usuário retornado pela API do GitHub.
 * 2 horas para o desenvolvimento.
