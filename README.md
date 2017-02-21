@@ -1,4 +1,5 @@
-# Challenge [Meetup Mobile Dev BH](http://www.meetup.com/Mobile-Dev-BH/) - April 18, 2015
+# Challenge [Meetup Mobile Dev BH](http://www.meetup.com/Mobile-Dev-BH/)
+> April 18, 2015
 
 Hybrid app with [Ionic](http://ionicframework.com/), for the challenge [Native x Cross Platform x Hybrid - Qual o melhor caminho?](http://www.meetup.com/Mobile-Dev-BH/events/221401419/) meetup.
 
