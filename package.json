@@ -24,5 +24,6 @@
   "cordovaPlatforms": [
     "ios",
     "android"
-  ]
+  ],
+  "private": true
 }
